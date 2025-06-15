@@ -1,0 +1,115 @@
+/* Base reset and body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* Navbar */
+.nav-header {
+  background-color: #1f2937;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  color: #3b82f6;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.nav-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-links a {
+  color: #d1d5db;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: #3b82f6;
+}
+
+/* Contact form layout */
+.contact-container {
+  width: 90%;
+  max-width: 700px;
+  margin: 3rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+.contact-container p {
+  margin-bottom: 2rem;
+  color: #374151;
+}
+.contact-container a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+/* Form styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.contact-form button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+  background-color: #2563eb;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #1f2937;
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin-top: 3rem;
+}
